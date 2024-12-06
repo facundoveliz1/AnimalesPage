@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    height: 100px;
+    background-color: rgb(255, 147, 23);
+}
+
+#art_ctr {
+    display: flex;
+    gap: 15px;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.article {
+    max-width: 32%;
+    cursor: pointer;
+}
+
+.img_art {
+    max-width: 90%;
+}
